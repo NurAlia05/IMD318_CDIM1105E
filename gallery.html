@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon"href="logo.png"
+type="image/png">
+<title>Gallery</title>
+<style>
+
+
+body {
+     font-family: cooper black;
+     margin: 0;
+     padding: 0;
+     background-color: #f9f9f9;
+}
+
+header {
+     background-color:#D27D2D;
+     color: white;
+     padding: 20px 10px;
+     text-align: center;
+}
+       
+nav {
+     background-color: none;
+     padding: 10px 0;
+     text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+   background-color: #BDB76B;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 16px 0;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background-color: #E3963E;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+    background-color: #D27D2D;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #834209;
+    position: relative;
+}
+
+</style>
+</head>
+<body>
+
+
+<center>
+     <nav>
+            <a href="index.html">Home Page</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="experience.html">Experience</a>
+            <a href="education.html">Education</a>
+            <a href="family.html">Family</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+    </nav>
+</center>
+
+<header>
+  <h1>LET'S SEE MY COLLECTION OF INTERESTING PICTURES!</h1>
+  <p>Each one has its own story that is sure to make you smile and be inspired.</p>
+</header>
+
+
+
+
+<div class="row">
+ 
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar15.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar16.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar17.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar18.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar19.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar20.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar21.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar22.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar23.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar24.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar25.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar26.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar27.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar28.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gambar29.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gambar36.jpeg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gm1.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gm4.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gm3.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gm5.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gm2.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gm6.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="gm8.jpg" alt="Front Image">
+      </div>
+      <div class="flip-card-back">
+        <img src="gm7.jpg" alt="Back Image">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    <footer class="footer">
+        <p>&#169; Copyright NUR ALIA ATIRAH 2024</p>
+    </footer>
+
+
+</body>
+</html>
+
